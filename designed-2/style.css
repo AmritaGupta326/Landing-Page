@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #292a39;
 }
 nav {
     background-color: #555;
@@ -31,22 +32,30 @@ nav a:hover {
 }
 
 header {
-    background-color: #333;
+    background-color: #292a39;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-.container {
+.head-container {
     width: 80%;
     margin: 0 auto;
 }
-
-.event-details,
-.features,
-.register {
-    background-color: #f9f9f9;
-    padding: 50px 0;
+.image-section {
+    background-image: url("car.jpg");
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.content-section {
+    background-color: #292a39;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
 }
 
 ul {
@@ -57,24 +66,33 @@ ul {
 li {
     margin-bottom: 10px;
 }
+.container {
+    background-color: #242234;
+    color: white;
+    height: 160px;
+    width: 1516px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
 
 .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
+    padding: 10px 40px; 
+    background-color: #2a2153;
     color: #fff;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .btn:hover {
-    background-color: #555;
+    background-color: #1f1d33;
 }
 
-footer {
-    background-color: #333;
+.footer-container {
+    background-color: #555;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
-
